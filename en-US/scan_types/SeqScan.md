@@ -54,8 +54,8 @@ Requires BUFFERS
 - **The execution plan's row count estimate is really off**. In some cases, Postgres may be completely unaware of how big a table actually is. This is a sign that the table hasn't been vacuumed and analysed properly. 'autovacuum' and 'autoanalyse' settings should also be reviewed system wide or for the specific table. 
 
 ## ℹ️ Extra info
-- **VACUUM FULL** will cause the table to have contiguous CTIDs because it rewrites the data to the disk. But the original order is kept.
-- **CLUSTER** will reorder the table on the disk by rewriting it sorted by a given index.
+- **[VACUUM FULL](https://www.postgresql.org/docs/current/sql-vacuum.html)** will cause the table to have contiguous CTIDs because it rewrites the data to the disk. But the original order is kept.
+- **[CLUSTER](https://www.postgresql.org/docs/current/sql-cluster.html)** will reorder the table on the disk by rewriting it sorted by a given index.
 
 ## Exemple
 ```sql

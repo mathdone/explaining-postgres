@@ -53,8 +53,8 @@ Requer BUFFERS
 - **A estimativa de contagem de linhas do plano de execução foi muito errada**. Em alguns casos, o PostgreSQL pode não estar ciente do tamanho real da tabela. Isto é um sinal de que o vacuum e o analyse não rodaram de forma apropriada. As configurações de 'autovacuum' e 'autoanalyse' também deveriam ser revisadas para o sistema inteiro ou para a tabela específica.
 
 ## ℹ️ Informações extras
-- **VACUUM FULL** faz a tabela ter CTIDs contíguos porque reescreve os dados no disco. Mas a ordenação original é mantida.
-- **CLUSTER** reordena a tabela no disco reescrevendo os dados na ordem de um índice escolhido.
+- **[VACUUM FULL](https://www.postgresql.org/docs/current/sql-vacuum.html)** faz a tabela ter CTIDs contíguos porque reescreve os dados no disco. Mas a ordenação original é mantida.
+- **[CLUSTER](https://www.postgresql.org/docs/current/sql-cluster.html)** reordena a tabela no disco reescrevendo os dados na ordem de um índice escolhido.
 
 ## Exemplo
 ```sql
