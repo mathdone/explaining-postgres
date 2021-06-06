@@ -5,8 +5,8 @@
 [seqscan-execution-plan]: ../../imgs/seqscan_execution_plan_en-us.png
 [license-cc]:../../imgs/license-cc.png
 
-# Explicando PostgreSQL
-## 🔍 Sequential Scan (Leitura sequencial) - Lendo o disco em ordem
+# Explaining PostgreSQL
+## 🔍 Sequential Scan - Reading data in disk order
 > hiding in [postgres/src/backend/executor/nodeSeqscan.c](github.com/postgres/postgres/blob/master/src/backend/executor/nodeSeqscan.c)
 
 A query like:
