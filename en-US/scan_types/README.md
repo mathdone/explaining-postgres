@@ -1,13 +1,8 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]  
 
-### 🌎 [Click here for the english version!](../en-US/scan_types)
-
 ---
-# Tipos de Scans
-1. [🔍 Leitura na ordem do disco (Sequential Scan)](./SeqScan.md)
-<!-- 2. [🔍 Leitura indexada (Index Scan & Index Only Scan)](./scan_types/IndexScan.md)
-3. [🔍 Leitura de Bitmaps (Bitmap Index Scan & Bitmap Heap Scan)](./scan_types/BitmapScan.md) -->
-
+# Scan Types
+1. [🔍 Sequential Scan](./SeqScan.md)
 ---
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]

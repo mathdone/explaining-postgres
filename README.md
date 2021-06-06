@@ -1,6 +1,6 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]  
 
-<!-- ### 🌎 [English version here!](./en-US) -->
+### 🌎 [Click here for the english version!](./en-US)
 
 ---
 
