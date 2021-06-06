@@ -15,7 +15,7 @@ Vou tentar ilustrar e explicar  o melhor que posso, mas sinta-se a vontade de su
 ---
 
 ## 🔍 Sequential Scan (Leitura sequencial) - Lendo o disco em ordem
-> se encontra em  postgres/src/backend/executor/nodeSeqscan.c
+> se encontra em [postgres/src/backend/executor/nodeSeqscan.c](github.com/postgres/postgres/blob/master/src/backend/executor/nodeSeqscan.c)
 
 Uma query to tipo:
 
