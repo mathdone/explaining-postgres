@@ -5,15 +5,7 @@
 [seqscan-execution-plan]: ../imgs/seqscan_execution_plan.png
 [license-cc]:../imgs/license-cc.png
 
-# O guia definitivo de leitura do EXPLAIN do PostgreSQL - Parte 1.1
-## Sequential Scan, A leitura sequencial
-
-> PostgreSQL é um banco muito foda. Não precisa duvidar! Mas nenhuma modelagem de dados sai perfeita; e conseguir debugar a sua query e descobrir porque tá demorando tanto pra retornar é uma habilidade importante para todos os tipos de Dev: de Cientistas de dados (como eu) que só querem consumir dados de forma eficiente, até DBAs que tentam descobrir onde botar um índice.   
-Nesta série de artigos, eu vou (tentar) listar e ilustrar todas as classes contidas nos nós dos planos de execução do PostgreSQL; e também _explicá-los_! Para que você consiga saber o que tá acontecendo quando você executa uma query com um EXPLAIN antes dela.   
-Vou tentar ilustrar e explicar  o melhor que posso, mas sinta-se a vontade de sugerir correções nas issues do meu projeto do github.
-
----
-
+# Explicando PostgreSQL
 ## 🔍 Sequential Scan (Leitura sequencial) - Lendo o disco em ordem
 > se encontra em [postgres/src/backend/executor/nodeSeqscan.c](github.com/postgres/postgres/blob/master/src/backend/executor/nodeSeqscan.c)
 
